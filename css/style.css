@@ -178,6 +178,20 @@ a:hover {
     z-index: 11;
 }
 
+/* トップ説明文 */
+.garyudcb {
+    writing-mode: vertical-rl;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    padding-top: 5vh;
+    padding-bottom: auto;
+    line-height: 2.5em;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+
 /* 縦書き説明文 */
 .describe_tate {
     writing-mode: vertical-rl;
@@ -275,7 +289,7 @@ a:hover {
 /* メニュー名、値段、説明 */
 .menudis {
     display: grid;
-    grid-template-rows: 26vh 20vh;
+    grid-template-rows: 26vh 25vh;
     grid-template-columns: 14vw 16vw;
 }
 
